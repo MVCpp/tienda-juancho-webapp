@@ -9,9 +9,13 @@ import { Ng4LoadingSpinnerService } from 'ng4-loading-spinner';
 })
 export class HomeComponent implements OnInit {
 
+  img:any;
+
+
   constructor(private spinnerService: Ng4LoadingSpinnerService) { }
 
   ngOnInit() {
+    this.img = "/assets/imgs/juancho.jpg";
   }
 
 }
