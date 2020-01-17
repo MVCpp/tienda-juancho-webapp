@@ -4,9 +4,10 @@
   left: 0;
   right: 0;
   width: 100%;         /* Footer height */
+  height: 8%;
 }
 .fa {
-  padding: 20px;
+  padding: 5px;
   font-size: 30px;
   width: 30px;
   text-align: center;
