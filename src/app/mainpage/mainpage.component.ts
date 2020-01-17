@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Ng4LoadingSpinnerService } from 'ng4-loading-spinner';
 import { NgbCarouselConfig} from "@ng-bootstrap/ng-bootstrap";
 
-@Component({  
+@Component({
   selector: 'app-mainpage',
   templateUrl: './mainpage.component.html',
   styleUrls: ['./mainpage.component.css']
@@ -33,14 +33,14 @@ export class MainpageComponent implements OnInit {
 
   constructor(private spinnerService: Ng4LoadingSpinnerService,
               private _config: NgbCarouselConfig) {
-    this.spinnerService.hide();
+  
     _config.interval = 3000;
     _config.pauseOnHover = true;
 
    }
 
   ngOnInit() {
-    this.spinnerService.show();
+
   }
 
 }
