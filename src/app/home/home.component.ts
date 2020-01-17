@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   constructor(private spinnerService: Ng4LoadingSpinnerService) { }
 
   ngOnInit() {
-    this.img = "/assets/imgs/juancho.jpg";
+    this.img = "assets/imgs/juancho.jpg";
   }
 
 }
